@@ -21,7 +21,7 @@ if (!firebase.apps.length) {
 
 // Use a local emulator in development
 if (__DEV__) {
-  // If you are running on a physical device, replace http://localhost with the local IP of your PC. (http://192.168.x.x)
+  // If you are running on a physical device, replace http://localhost with the local IP of your PC.
 
   const auth = getAuth();
   connectAuthEmulator(auth, 'http://10.0.2.2:6969/');
